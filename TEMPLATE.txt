@@ -1,0 +1,210 @@
+
+\documentclass[10pt,a4paper]{article}
+
+% --------- Packages ---------
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[left=0.65in,right=0.65in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% ATS-friendly PDF text
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% --------- Formatting ---------
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\setlist[itemize]{
+    noitemsep,
+    topsep=2pt,
+    leftmargin=14pt
+}
+
+\titleformat{\section}
+    {\bfseries\uppercase}
+    {}
+    {0em}
+    {}
+    [\vspace{-2pt}\titlerule]
+
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black
+}
+
+\begin{document}
+
+\renewcommand{\baselinestretch}{1.0}
+
+% --------- Header ---------
+\begin{center}
+    {\LARGE \textbf{DARSHAN K}} \\[3pt]
+
+    Bangalore, India $\;|\;$
+    \href{mailto:kdarshan.gowda4229@gmail.com}
+    {kdarshan.gowda4229@gmail.com} $\;|\;$
+    +91 9036398539 \\[2pt]
+
+    \href{https://linkedin.com/in/darshan-k-4229d23}
+    {LinkedIn} $\;|\;$
+    \href{https://github.com/darshank4229}
+    {GitHub} $\;|\;$
+    \href{https://my-portfolio-two-taupe-99.vercel.app/}
+    {Portfolio}
+\end{center}
+
+% --------- Summary ---------
+\section*{Summary}
+
+Junior Java Developer with hands-on experience in developing
+RESTful APIs and backend applications using
+\textbf{Java, Spring Boot, Spring MVC, Spring Security, and Hibernate}.
+Knowledge of microservices, JWT authentication, role-based
+authorization, and database management using MySQL and MongoDB.
+Strong foundation in Object-Oriented Programming, Java Collections,
+SQL, and layered architecture. Familiar with React.js, API testing,
+Git, Maven, Swagger, and AI-assisted development tools.
+Seeking a Software Developer role to contribute to scalable
+enterprise applications.
+
+% --------- Education ---------
+\section*{Education}
+
+\textbf{Bachelor of Engineering -- Information Science}
+\hfill \textbf{2021 -- 2025}
+
+Visvesvaraya Technological University (VTU)
+\hfill \textbf{CGPA: 8.02}
+
+\vspace{2pt}
+
+\textbf{Pre-University (12th Standard)}
+\hfill \textbf{2019 -- 2021}
+
+KLE Society's S. Nijalingappa College
+\hfill \textbf{Percentage: 78\%}
+
+% --------- Technical Skills ---------
+\section*{Technical Skills}
+
+\textbf{Programming Languages:} Core Java, Advanced Java
+
+\textbf{Backend:} Spring Boot, Spring MVC, Spring Security,
+Hibernate, JDBC, REST API, JWT, Microservices, Spring Data JPA
+
+\textbf{Frontend:} HTML, CSS, JavaScript, React.js
+
+\textbf{Databases:} MySQL, MongoDB, SQL
+
+\textbf{Tools \& Practices:} Git, GitHub, Swagger, Maven, Postman
+
+\textbf{AI Tools:} GitHub Copilot, ChatGPT, Cursor AI, Claude AI
+
+\textbf{Soft Skills:} Communication, Team Collaboration,
+Problem Solving, Time Management, Adaptability, Continuous Learning
+
+% --------- Professional Experience ---------
+\section*{Professional Experience}
+
+\textbf{Software Developer Intern -- JSpiders, Bangalore}
+\hfill \textbf{Jan 2026 -- Jul 2026}
+
+\begin{itemize}
+    \item Developed scalable RESTful APIs using
+    \textbf{Java and Spring Boot} for Product, Cart, and Order
+    Management modules, supporting core e-commerce workflows.
+
+    \item Implemented secure authentication and role-based
+    authorization using \textbf{Spring Security and JWT},
+    reducing unauthorized access risks across API endpoints.
+
+    \item Collaborated with a team using \textbf{Git} for
+    version control, participating in iterative,
+    Agile-style software development cycles.
+
+    \item Tested and validated REST APIs using
+    \textbf{Postman} and documented endpoints using
+    \textbf{Swagger}, improving API usability for cross-team integration.
+\end{itemize}
+
+% --------- Projects ---------
+\section*{Projects}
+
+\textbf{E-Commerce Application -- REST API} 
+\hfill
+\href{https://github.com/darshank4229/E-Com_Rest-API}
+{Link}
+\quad | \quad \textbf{Dec 2025 -- Present}
+
+\textit{Java, Spring Boot, Spring Security, JWT,
+Hibernate/JPA, MySQL}
+
+\begin{itemize}
+    \item Developed an e-commerce backend for
+    \textbf{Users, Products, Cart, and Orders}
+    using Spring Boot.
+
+    \item Designed RESTful APIs for CRUD operations
+    and implemented request and response handling.
+
+    \item Implemented \textbf{JWT authentication and
+    role-based authorization} using Spring Security.
+
+    \item Used Hibernate/JPA with MySQL for database
+    persistence and entity relationships.
+
+    \item Implemented request validation, global exception
+    handling, and structured API responses.
+
+    \item Tested API endpoints using Postman and
+    documented APIs using Swagger.
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{Healthcare Management System -- Web Application}
+\hfill
+\href{https://github.com/darshank4229/Hospital_Managment_System}
+{GitHub}
+\quad | \quad \textbf{Aug 2024 -- Oct 2024}
+
+\textit{Java, Spring MVC, Hibernate, MySQL,
+JSP, HTML, CSS, JavaScript}
+
+\begin{itemize}
+    \item Developed an MVC-based healthcare application
+    for Patients, Doctors, Appointments, and Admin.
+
+    \item Implemented CRUD operations using
+    Spring MVC, Hibernate, and MySQL.
+
+    \item Created JSP-based interfaces with form
+    validation and session management.
+
+    \item Applied Hibernate ORM for database
+    interaction and entity mapping.
+\end{itemize}
+
+% --------- Certifications ---------
+\section*{Certifications}
+
+\begin{itemize}
+    \item Java Full Stack Development Certification
+    \item Spring Boot and REST API Development
+\end{itemize}
+
+% --------- Languages Known ---------
+\section*{Languages Known}
+
+English (Professional) $\;|\;$
+Kannada (Native) $\;|\;$
+Hindi (Conversational)
+
+\end{document}
